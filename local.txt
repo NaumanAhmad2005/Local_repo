@@ -1,0 +1,15 @@
+thsi is a local file which i will try to push on github using git.
+
+So the process is:
+
+1) Create a local folder and cd to it.
+2) Fist add .git folder in this repo. using "git init".
+2) Add files folders and do all the work.
+3) add this to git to update using "git add ." *you can check status using "git status"
+4) Then commit it using "git commit -m "message".
+  *these are the changings in our local system, now we want to upload it on gihub. For that:
+5) Create a new repo on github and copy its link.
+6) link you local repo to the remote repo using "git remote add origin [link]
+7) Verify link through "git remote -v"
+8) verify branch using "git branch", you can change name os branch using "git branch -m [new name]"
+9) then you can finally push it using "git push -u origin main". thsi -u is shortcut for future. like in future we can just type git push to push in same repo. we dont need to write origin main again anad again.
